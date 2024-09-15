@@ -1,0 +1,26 @@
+.home-container{
+    height: 170vh;
+    overflow: auto;
+    background-color: #ffb6c1;
+}
+
+.home-section{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom-button {
+    background-color: #da467d ; /* Specify the desired button background color */
+    color: white; /* Specify the desired button text color */
+    /* Add any additional styles as needed */
+  }
+.col-md-6{
+   align-items:flex-start;
+   animation:cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+@media screen and (max-width:768px) {
+    .home-section{
+        flex-direction: column;
+    }
+}  

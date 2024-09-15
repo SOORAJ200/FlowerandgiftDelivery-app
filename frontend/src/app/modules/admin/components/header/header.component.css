@@ -1,0 +1,12 @@
+.navbar{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFC0CB;
+}
+.navbar-toggler{
+    background: #FFC0CB;
+}
+.navbar-nav{
+    float: right;
+}

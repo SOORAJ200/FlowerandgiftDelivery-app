@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: transparent;
+   
+}
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    width: 100%;
+    background-color: transparent;
+
+}
+
+
+.card{
+    padding: 40px;
+    width: 36%;
+    border: none;
+}
+
+.heading{
+    font-family: "Bree Serif";
+    font-size: 26px;
+}
+
+.image{
+    height: 50vh;
+    width: 44%;
+}
+.mt-2{
+    color:#da467d;
+}
+@media screen and (max-width:1000px) {
+    .image{
+        display: none;
+    }
+} 
+
